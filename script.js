@@ -9,9 +9,7 @@ input.addEventListener('keyup', (event) =>
     number = event.target.value;
 
     if (event.target.value > 100)
-    {
         input.value = 100;
-    }
 
 });
 
